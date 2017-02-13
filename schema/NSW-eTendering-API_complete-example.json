@@ -1,0 +1,294 @@
+{
+   "releases":[
+      {
+         "language":"EN",
+         "date":"Last changed UTC date: YYYY-mm-ddThh:mm:ssZ",
+         "ocid":"ocds-43qwtd-RFT-XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+         "id":"RFT-XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+         "initiationType":"tender",
+         "tag":[
+            "tender|planning"
+         ],
+         "awards":[
+            {
+               "multiAgencyAccess":null,
+               "id":"ContractID",
+               "publishedDate":"YYYY-mm-ddThh:mm:ssZ",
+               "CNUUID":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+               "SONUUID":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+               "title":"Contract Title",
+               "status":"active|cancelled",
+               "date":"Last changed UTC date: YYYY-mm-ddThh:mm:ssZ",
+               "evaluationCriteria":"HTML table criteria / weighting",
+               "industrialRelationsDetails":{
+                  "subContractorNames":"SubContractor Names",
+                  "applicableIndustrialInstruments":"HTML-formatted text",
+                  "locationOfWork":"HTML-formatted text"
+               },
+               "value":{
+                  "amount":9999,
+                  "currency":"AUD"
+               },
+               "valueDescription":"Estimated Value of the Project|Estimated Value of the Goods & Services over the term of the Contract|Value of the Real Property Transferred|Rent for the term of the Lease|Estimated Amount Payable|Contract Estimate Per Annum|Estimated Contract Life",
+               "suppliers":[
+                  {
+                     "identifier":{
+                        "scheme":"ABN",
+                        "id":"81 913 830 179",
+                        "legalName":"Supplier Name"
+                     },
+                     "additionalIdentifiers":[
+                        {
+                           "scheme":"ACN",
+                           "id":"001 445 110"
+                        }
+                     ],
+                     "name":"Trading name",
+                     "ABNExempt":"yes/no",
+                     "ABNExemptionReason":"ABN Not Known / Provided|Exempt - Non Australian Entity|Exempt - Insufficient Turnover|Not Exempt|Exempt - Other"
+                  }
+               ],
+               "items":[
+                  {
+                     "description":"Items description",
+                     "classification":{
+                        "scheme":"UNSPSC",
+                        "id":"00000000",
+                        "description":"UNSPSC product title"
+                     }
+                  }
+               ],
+               "contractPeriod":{
+                  "startDate":"YYYY-mm-ddThh:mm:ssZ",
+                  "endDate":"YYYY-mm-ddThh:mm:ssZ"
+               },
+               "procurementMethod":"mapping of CN procurement methods to OCDS procurementMethod (open=open, non tender & limited=limited,multi-stage=selective)",
+               "eTenderProcurementMethod":"Limited|Multi-Stage|Non Tender|Open",
+               "relatedRFT":[
+                  "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+                  "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+               ],
+               "relatedSON":[
+                  "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+                  "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+               ],
+               "costBenefitAnalysis":"HTML-formatted text: The results of any cost-benefit analysis of the contract conducted by the agency",
+               "descriptionContractor":"HTML-formatted text: Description of any provision under which the amount payable to the contractor may be varied",
+               "descriptionRenegotiated":"HTML-formatted text: Description of any provisions under which the contract may be renegotiated",
+               "descriptionServices":"HTML-formatted text: Any provisions for payment to the contractor for operational or maintenance services",
+               "exemptionsProvisions":1,
+               "futureTransfersToContractor":"HTML-formatted text: Particulars of future transfers of assets to the contractor including the date of their transfer",
+               "futureTransfersToState":"HTML-formatted text: Particulars of future transfers of assets to the State at zero or nominal, cost to the State, including the date of their transfer",
+               "otherInformation":"HTML-formatted text: Other Information",
+               "otherKeyElements":"HTML-formatted text: Particulars of any other key elements of the contract",
+               "otherPrivateSector":"HTML-formatted text: Other private sector entities involved in, with an interest in or benefiting from this contract",
+               "provisionsNotProvided":"HTML-formatted text: If yes to the above, when some but not all provisions of the contract have been published, a general description of the types of provisions that have not been provided",
+               "publicSectorComparator":"HTML-formatted text: The components and quantum of the public sector comparator if used",
+               "publishIntention":"HTML-formatted text: If yes to examptionsProvisions, is it intended that the contract or those provisions be published at a later date, and if so, when?",
+               "reasons":"HTML-formatted text: If yes to examptionsProvisions, what are the reasons why the contract, or provisions therein, have not been provided?",
+               "summaryOfInfo":"HTML-formatted text: If relevant, a summary of information used in the contractor's full base case financial model (for example, the pricing formula for tolls or usage charges)",
+               "risk":"HTML-formatted text: If relevant, particulars of how risk, during the construction and operational phases of a contract to undertake a specific project (such as construction, infrastructure or property development), is to be apportioned between the parties, quantified (where practicable) in net present-value terms and specifying the major assumptions involved",
+               "significantGuarantee":"HTML-formatted text: Particulars as to any significant guarantees or undertakings between the parties, including any guarantees or undertakings with respect to loan agreements entered into or proposed to be entered into",
+               "contractGroup":{
+                  "totalContractGroupPeriod":{
+                     "startDate":"YYYY-mm-ddThh:mm:ssZ",
+                     "endDate":"YYYY-mm-ddThh:mm:ssZ"
+                  },
+                  "totalContractGroupValue":9999.99,
+                  "relatedCN":[
+                     "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+                     "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+                  ]
+               }
+            }
+         ],
+         "amendment":{
+            "date":"Last changed UTC date: YYYY-mm-ddThh:mm:ssZ",
+            "changes":[
+               {
+                  "property":"name of the updated field eg items.classification.id",
+                  "former_value":"old value of changed field"
+               }
+            ],
+            "rationale":"Reason for this amendment"
+         },
+         "buyer":{
+            "name":"Agency name",
+            "contactPoint":{
+               "name":"Contact Name",
+               "email":"Contact@Email",
+               "telephone":" 1234567890",
+               "mobile":" 1234567890",
+               "faxNumber":" 1234567890",
+               "url":"http://agency.nsw.gov.au"
+            },
+            "address":{
+               "streetAddress":"Street address on one line with no formatting",
+               "locality":"Sydney",
+               "region":"NSW",
+               "postalCode":"2000",
+               "countryName":"Australia"
+            }
+         },
+         "tender":{
+            "id":"TenderNumber",
+            "RFTUUID":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+            "relatedRFT":[
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+            ],
+            "relatedCN":[
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+            ],
+            "relatedSON":[
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+               "XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX"
+            ],
+            "title":"Tender Title",
+            "multiAgencyAccess":"true|false",
+            "multiAgencyAccessType":"All Agencies|Department Agencies|Other",
+            "description":"Long description",
+            "tenderType":"Open Tenders|Scheme Invitation|Selective Tenders|Expression of Interest For Pre-Qualification|Funded Services",
+            "inheritanceType":"RFT|proposed",
+            "status":"[planned=draft, active=published, cancelled=cancelled,complete=closed/archived]",
+            "eTenderStatus":"draft|published|cancelled|closed",
+            "RFTAccess":"Open|Restricted - No Public View|Restricted - Public View Detailed|Restricted - Public View Limited",
+            "deliveryLocation":{
+               "gazetteer":{
+                  "scheme":"xNSWRegions",
+                  "Identifiers":[
+                     "ACT",
+                     "NT",
+                     "QLD",
+                     "SA",
+                     "TAS",
+                     "VIC",
+                     "WA",
+                     "Central West",
+                     "Far West",
+                     "Hunter",
+                     "Illawarra",
+                     "Mid North Coast",
+                     "Murray",
+                     "Murrumbidgee",
+                     "Northern",
+                     "North Western",
+                     "Richmond Tweed",
+                     "South Eastern",
+                     "Sydney",
+                     "Cumberland/Prospect",
+                     "Nepean",
+                     "Northern Sydney",
+                     "Inner West",
+                     "South East Sydney",
+                     "South West Sydney",
+                     "Central Coast",
+                     "Hunter",
+                     "Central West",
+                     "Orana/Far West",
+                     "Riverina/Murray",
+                     "Far North Coast",
+                     "Mid North Coast",
+                     "New England",
+                     "Illawarra",
+                     "Southern Highlands"
+                  ]
+               }
+            },
+            "items":[
+               {
+                  "classification":{
+                     "scheme":"UNSPSC",
+                     "id":"00000000",
+                     "description":"UNSPSC product title"
+                  }
+               }
+            ],
+            "PlannedProcurementUUID":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+            "minValue":{
+               "amount":9999,
+               "currency":"AUD"
+            },
+            "value":{
+               "amount":9999,
+               "currency":"AUD"
+            },
+            "hardCopyCost":{
+               "amount":9999.99,
+               "currency":"AUD"
+            },
+            "hardCopyLink":"?event=public.RFT.hardcopy&rftuuid=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+            "softCopyCost":{
+               "amount":9999.99,
+               "currency":"AUD"
+            },
+            "softCopyLink":"?event=public.RFT.viewDocuments&rftuuid=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+            "procurementMethod":"open|limited",
+            "eTenderProcurementMethod":"Limited|Multi-Stage|Non Tender|Open",
+            "submissionMethod":[
+               "written",
+               "ElectronicSubmission"
+            ],
+            "submissionMethodDetails":"Additional submission instructions (may be html-formatted)",
+            "addressForLodgement":"Address",
+            "lodgeResponse":"?event=public.RFT.response.logResponseEntityForm&RFTUUID=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX&link=LodgeResponse",
+            "conditionsForParticipation":"Conditions for participation (may be html-formatted)",
+            "timeframeDelivery":"Timeframe for delivery (may be html-formatted)",
+            "tenderPeriod":{
+               "startDate":"YYYY-mm-ddThh:mm:ssZ",
+               "endDate":"YYYY-mm-ddThh:mm:ssZ"
+            },
+            "prequalifications":[
+               {
+                  "title":"Advanced qualification title",
+                  "description":"HTML-formatted description"
+               }
+            ],
+            "capabilities":[
+               "HTML-formatted list of lists"
+            ],
+            "questionnaires":[
+               {
+                  "title":"Title of this Questionnaire",
+                  "description":"HTML-formatted question form."
+               }
+            ],
+            "numberOfTenderers":1,
+            "tenderers":[
+               {
+                  "identifier":{
+                     "legalName":"Business name"
+                  },
+                  "name":"Trading name",
+                  "address":{
+                     "streetAddress":"Street address on one line with no formatting",
+                     "region":"NSW",
+                     "postalCode":"2000",
+                     "countryName":"Australia"
+                  }
+               }
+            ],
+            "documents":[
+               {
+                  "id":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+                  "format":"from http://www.iana.org/assignments/media-types/media-types.xhtml",
+                  "title":"Terms and Conditions",
+                  "url":"?event=public.scheme.download&schemeUUID=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX&type=terms&fileName=filename.pdf"
+               }
+            ],
+            "amendment":{
+               "date":"YYYY-mm-ddThh:mm:ssZ",
+               "changes":[
+                  {
+                     "property":"name of the updated field eg items.classification.id",
+                     "former_value":"old value of changed field"
+                  }
+               ],
+               "rationale":"Reason for this amendment"
+            },
+            "estimatedDateToMarket":"Quarter X YYYY/YYYY"
+         }
+      }
+   ]
+}
