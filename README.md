@@ -11,11 +11,17 @@ The service is provided based on the [NSW Government API Standard](https://www.f
 ##API usage
 The API is available through a number of URLs:
 [Planned Procurement search](https://tenders.nsw.gov.au/?event=api.planning.search)
+
 [Tender search (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.search)
+
 [Contract search (Contract Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=cnEvent)
+
 [Contract search (Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=sonEvent)
+
 [Individual Planned Procurement view](https://tenders.nsw.gov.au/?event=api.planning.view)
+
 [Individual tender view (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.view)
+
 [Individual contract view (Contract Notice and Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.view)
 
 More information on parameters and response fields is available in the Wiki section of this repository.
