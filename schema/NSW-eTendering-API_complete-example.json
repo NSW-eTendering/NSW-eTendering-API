@@ -274,17 +274,21 @@
                   "id":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
                   "format":"from http://www.iana.org/assignments/media-types/media-types.xhtml",
                   "title":"Terms and Conditions",
+                  "documentType":"biddingDocuments|tenderNotice|amendments",
                   "url":"?event=public.scheme.download&schemeUUID=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX&type=terms&fileName=filename.pdf"
                }
             ],
-            "amendment":{
+            "amendments":{
                "date":"YYYY-mm-ddThh:mm:ssZ",
-               "changes":[
-                  {
-                     "property":"name of the updated field eg items.classification.id",
-                     "former_value":"old value of changed field"
-                  }
-               ],
+		"documents":[
+		  {
+		      "id":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
+		      "format":"from http://www.iana.org/assignments/media-types/media-types.xhtml",
+		      "title":"Terms and Conditions",
+		      "documentType":"biddingDocuments|tenderNotice|amendments",
+		      "url":"?event=public.scheme.download&schemeUUID=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX&type=terms&fileName=filename.pdf"
+		  }
+		],
                "rationale":"Reason for this amendment"
             },
             "estimatedDateToMarket":"Quarter X YYYY/YYYY"

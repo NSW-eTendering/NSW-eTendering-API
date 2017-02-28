@@ -10,19 +10,13 @@ The service is provided based on the [NSW Government API Standard](https://www.f
 
 ##API usage
 The API is available through a number of URLs:
-[Planned Procurement search](https://tenders.nsw.gov.au/?event=api.planning.search)
-
-[Tender search (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.search)
-
-[Contract search (Contract Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=cnEvent)
-
-[Contract search (Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=sonEvent)
-
-[Individual Planned Procurement view](https://tenders.nsw.gov.au/?event=api.planning.view)
-
-[Individual tender view (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.view)
-
-[Individual contract view (Contract Notice and Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.view)
+- [Planned Procurement search](https://tenders.nsw.gov.au/?event=api.planning.search)
+- [Tender search (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.search)
+- [Contract search (Contract Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=cnEvent)
+- [Contract search (Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.search&type=sonEvent)
+- [Individual Planned Procurement view](https://tenders.nsw.gov.au/?event=api.planning.view)
+- [Individual tender view (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=api.tender.view)
+- [Individual contract view (Contract Notice and Standing Offer Notice)](https://tenders.nsw.gov.au/?event=api.contract.view)
 
 More information on parameters and response fields is available in the Wiki section of this repository.
 
@@ -38,3 +32,8 @@ Requests are automatically limited by IP address.  If too many requests are rece
 
 ##Support
 The NSW Procurement Service Centre will provide support for API users.
+
+## Release notes:
+- Tender.Name and Contract.id should be strings but may contain numeric-only data, so they are padded with one space to stop them being rendered without inverted commas
+- Empty fields are not returned.
+
