@@ -285,7 +285,7 @@
 		      "id":"XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX",
 		      "format":"from http://www.iana.org/assignments/media-types/media-types.xhtml",
 		      "title":"Terms and Conditions",
-		      "documentType":"biddingDocuments|tenderNotice|amendments",
+		      "documentType":"amendments",
 		      "url":"?event=public.scheme.download&schemeUUID=XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXXXXXX&type=terms&fileName=filename.pdf"
 		  }
 		],
