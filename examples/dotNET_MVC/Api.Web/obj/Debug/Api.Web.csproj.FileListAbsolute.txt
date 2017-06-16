@@ -1,0 +1,137 @@
+D:\VSProjects\etr-api\Api.Web\bin\ApplicationInsights.config
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\csc.exe
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\vbc.exe
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\VBCSCompiler.exe
+D:\VSProjects\etr-api\Api.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\VSProjects\etr-api\Api.Web\bin\Api.Web.dll.config
+D:\VSProjects\etr-api\Api.Web\bin\Api.Web.dll
+D:\VSProjects\etr-api\Api.Web\bin\Api.Web.pdb
+D:\VSProjects\etr-api\Api.Web\bin\Antlr3.Runtime.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.Web.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.ApplicationInsights.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\VSProjects\etr-api\Api.Web\bin\Newtonsoft.Json.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Net.Http.Formatting.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Helpers.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Http.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Http.WebHost.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Mvc.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Optimization.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Razor.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.Deployment.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.dll
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.Razor.dll
+D:\VSProjects\etr-api\Api.Web\bin\WebGrease.dll
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.Web.xml
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.ApplicationInsights.xml
+D:\VSProjects\etr-api\Api.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Helpers.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Mvc.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Optimization.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Razor.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.Deployment.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.WebPages.Razor.xml
+D:\VSProjects\etr-api\Api.Web\bin\Antlr3.Runtime.pdb
+D:\VSProjects\etr-api\Api.Web\bin\Newtonsoft.Json.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Net.Http.Formatting.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Http.xml
+D:\VSProjects\etr-api\Api.Web\bin\System.Web.Http.WebHost.xml
+D:\VSProjects\etr-api\Api.Web\obj\Debug\Api.Web.csprojResolveAssemblyReference.cache
+D:\VSProjects\etr-api\Api.Web\obj\Debug\Api.Web.dll
+D:\VSProjects\etr-api\Api.Web\obj\Debug\Api.Web.pdb
+D:\VSProjects\etr-api\Api.Web\bin\Castle.Core.dll
+D:\VSProjects\etr-api\Api.Web\bin\Castle.Windsor.dll
+D:\VSProjects\etr-api\Api.Web\bin\Json.NET.Web.dll
+D:\VSProjects\etr-api\Api.Web\bin\Castle.Core.xml
+D:\VSProjects\etr-api\Api.Web\bin\Castle.Windsor.xml
+D:\VSProjects\etr-api\Api.Web\bin\Api.Data.dll
+D:\VSProjects\etr-api\Api.Web\bin\EntityFramework.dll
+D:\VSProjects\etr-api\Api.Web\bin\EntityFramework.SqlServer.dll
+D:\VSProjects\etr-api\Api.Web\bin\Api.Data.pdb
+D:\VSProjects\etr-api\Api.Web\bin\EntityFramework.xml
+D:\VSProjects\etr-api\Api.Web\bin\EntityFramework.SqlServer.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\ApplicationInsights.config
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\csc.exe
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\vbc.exe
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\VBCSCompiler.exe
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Api.Web.dll.config
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Api.Web.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Api.Web.pdb
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Antlr3.Runtime.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Api.Data.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Castle.Core.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\EntityFramework.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\EntityFramework.SqlServer.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.Web.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.ApplicationInsights.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Newtonsoft.Json.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Net.Http.Formatting.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Helpers.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Http.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Http.WebHost.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Mvc.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Optimization.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Razor.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.Razor.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\WebGrease.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Api.Data.pdb
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Castle.Core.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\EntityFramework.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\EntityFramework.SqlServer.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.Web.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.ApplicationInsights.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Newtonsoft.Json.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Helpers.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Mvc.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Optimization.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Razor.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.WebPages.Razor.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\Antlr3.Runtime.pdb
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Net.Http.Formatting.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Http.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\bin\System.Web.Http.WebHost.xml
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\obj\Debug\Api.Web.csprojResolveAssemblyReference.cache
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\obj\Debug\Api.Web.dll
+D:\Tenders\eTender API\NSW-eTendering-API\examples\etr-api\Api.Web\obj\Debug\Api.Web.pdb
