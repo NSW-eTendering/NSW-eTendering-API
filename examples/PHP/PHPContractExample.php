@@ -2,7 +2,7 @@
 // Search for closed tenders and find the contracts which resulted from them
 
 // Search for contracts
-$baseurl = 'http://etr-testing.tenders.nsw.gov.au/';
+$baseurl = 'http://tenders.nsw.gov.au/';
 $contractsearch = getAndDecode($baseurl.'?event=public.api.contract.search&ResultsPerPage=999');	// &category=95 works on dev
 print '<table><tr><th>Contracts</th><th>Tenders</th><th>Planned Procurements</th></tr>'.PHP_EOL;
 // For each tender in the search results,  get the full view

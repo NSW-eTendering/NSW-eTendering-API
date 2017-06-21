@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cn">
+    <Key>
+      <PropertyRef Name="CNUUID" />
+    </Key>
+    <Property Name="CNUUID" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="ContractUUID" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="ConfidentialityContractFlag" Type="tinyint" />
+    <Property Name="SupplierUUID" Type="varchar" MaxLength="36" />
+    <Property Name="SupplierName" Type="varchar" MaxLength="255" />
+    <Property Name="SupplierAddress" Type="varchar" MaxLength="255" />
+    <Property Name="SupplierSuburb" Type="varchar" MaxLength="255" />
+    <Property Name="SupplierPostcode" Type="varchar" MaxLength="20" />
+    <Property Name="SupplierState" Type="varchar" MaxLength="255" />
+    <Property Name="SupplierCountry" Type="varchar" MaxLength="255" />
+    <Property Name="SupplierABNExempt" Type="bool" />
+    <Property Name="ParentCNUUID" Type="varchar" MaxLength="36" />
+    <Property Name="MULUUID" Type="varchar" MaxLength="36" />
+    <Property Name="AmendmentReason" Type="text" />
+    <Property Name="ContactName" Type="varchar" MaxLength="255" />
+    <Property Name="ContactPhone" Type="varchar" MaxLength="255" />
+    <Property Name="Division" Type="varchar" MaxLength="255" />
+    <Property Name="Branch" Type="varchar" MaxLength="255" />
+    <Property Name="OfficePostcode" Type="varchar" MaxLength="20" />
+    <Property Name="AgencyRefId" Type="varchar" MaxLength="255" />
+    <Property Name="SONUUID" Type="varchar" MaxLength="36" />
+    <Property Name="ConfidentialityOutputsFlag" Type="tinyint" />
+    <Property Name="ProcurementCode" Type="char" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="contract">
+    <Key>
+      <PropertyRef Name="ContractUUID" />
+    </Key>
+    <Property Name="ContractUUID" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Type" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="AgencyUUID" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="UserUUID" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="UNSPSCCode" Type="varchar" MaxLength="8" />
+    <Property Name="Published" Type="datetime" Precision="0" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="Value" Type="double" />
+    <Property Name="Description" Type="text" />
+    <Property Name="Status" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CancellationReason" Type="text" />
+    <Property Name="ConsultancyFlag" Type="bool" />
+    <Property Name="ContractJustificationUUID" Type="varchar" MaxLength="36" />
+    <Property Name="UploadUUID" Type="varchar" MaxLength="36" />
+    <Property Name="TenderNumber" Type="varchar" MaxLength="255" />
+    <Property Name="CancellationDate" Type="date" />
+    <Property Name="CancellationUserUUID" Type="varchar" MaxLength="36" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="cn" EntityType="Self.cn" Schema="etr" store:Type="Tables" />
+    <EntitySet Name="contract" EntityType="Self.contract" Schema="etr" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

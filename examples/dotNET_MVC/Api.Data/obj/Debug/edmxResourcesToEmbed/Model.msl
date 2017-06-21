@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="etrEntities">
+    <EntitySetMapping Name="cns">
+      <EntityTypeMapping TypeName="Model.cn">
+        <MappingFragment StoreEntitySet="cn">
+          <ScalarProperty Name="CNUUID" ColumnName="CNUUID" />
+          <ScalarProperty Name="ContractUUID" ColumnName="ContractUUID" />
+          <ScalarProperty Name="ConfidentialityContractFlag" ColumnName="ConfidentialityContractFlag" />
+          <ScalarProperty Name="SupplierUUID" ColumnName="SupplierUUID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="SupplierAddress" ColumnName="SupplierAddress" />
+          <ScalarProperty Name="SupplierSuburb" ColumnName="SupplierSuburb" />
+          <ScalarProperty Name="SupplierPostcode" ColumnName="SupplierPostcode" />
+          <ScalarProperty Name="SupplierState" ColumnName="SupplierState" />
+          <ScalarProperty Name="SupplierCountry" ColumnName="SupplierCountry" />
+          <ScalarProperty Name="SupplierABNExempt" ColumnName="SupplierABNExempt" />
+          <ScalarProperty Name="ParentCNUUID" ColumnName="ParentCNUUID" />
+          <ScalarProperty Name="MULUUID" ColumnName="MULUUID" />
+          <ScalarProperty Name="AmendmentReason" ColumnName="AmendmentReason" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="OfficePostcode" ColumnName="OfficePostcode" />
+          <ScalarProperty Name="AgencyRefId" ColumnName="AgencyRefId" />
+          <ScalarProperty Name="SONUUID" ColumnName="SONUUID" />
+          <ScalarProperty Name="ConfidentialityOutputsFlag" ColumnName="ConfidentialityOutputsFlag" />
+          <ScalarProperty Name="ProcurementCode" ColumnName="ProcurementCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="contracts">
+      <EntityTypeMapping TypeName="Model.contract">
+        <MappingFragment StoreEntitySet="contract">
+          <ScalarProperty Name="ContractUUID" ColumnName="ContractUUID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="AgencyUUID" ColumnName="AgencyUUID" />
+          <ScalarProperty Name="UserUUID" ColumnName="UserUUID" />
+          <ScalarProperty Name="UNSPSCCode" ColumnName="UNSPSCCode" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CancellationReason" ColumnName="CancellationReason" />
+          <ScalarProperty Name="ConsultancyFlag" ColumnName="ConsultancyFlag" />
+          <ScalarProperty Name="ContractJustificationUUID" ColumnName="ContractJustificationUUID" />
+          <ScalarProperty Name="UploadUUID" ColumnName="UploadUUID" />
+          <ScalarProperty Name="TenderNumber" ColumnName="TenderNumber" />
+          <ScalarProperty Name="CancellationDate" ColumnName="CancellationDate" />
+          <ScalarProperty Name="CancellationUserUUID" ColumnName="CancellationUserUUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

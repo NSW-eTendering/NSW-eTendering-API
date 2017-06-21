@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cn">
+    <Key>
+      <PropertyRef Name="CNUUID" />
+    </Key>
+    <Property Name="CNUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ContractUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ConfidentialityContractFlag" Type="SByte" />
+    <Property Name="SupplierUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierSuburb" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierPostcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierState" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierCountry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SupplierABNExempt" Type="Boolean" />
+    <Property Name="ParentCNUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="MULUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="AmendmentReason" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="ContactName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ContactPhone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Division" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="OfficePostcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AgencyRefId" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SONUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="ConfidentialityOutputsFlag" Type="SByte" />
+    <Property Name="ProcurementCode" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="contract">
+    <Key>
+      <PropertyRef Name="ContractUUID" />
+    </Key>
+    <Property Name="ContractUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AgencyUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UNSPSCCode" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="Published" Type="DateTime" />
+    <Property Name="StartDate" Type="DateTime" />
+    <Property Name="EndDate" Type="DateTime" />
+    <Property Name="Value" Type="Double" />
+    <Property Name="Description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CancellationReason" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="ConsultancyFlag" Type="Boolean" />
+    <Property Name="ContractJustificationUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="UploadUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="TenderNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CancellationDate" Type="DateTime" />
+    <Property Name="CancellationUserUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="etrEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cns" EntityType="Self.cn" />
+    <EntitySet Name="contracts" EntityType="Self.contract" />
+  </EntityContainer>
+</Schema>
