@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cn">
+          <Key>
+            <PropertyRef Name="CNUUID" />
+          </Key>
+          <Property Name="CNUUID" Type="varchar" MaxLength="36" Nullable="false" />
+          <Property Name="ContractUUID" Type="varchar" MaxLength="36" Nullable="false" />
+          <Property Name="ConfidentialityContractFlag" Type="tinyint" />
+          <Property Name="SupplierUUID" Type="varchar" MaxLength="36" />
+          <Property Name="SupplierName" Type="varchar" MaxLength="255" />
+          <Property Name="SupplierAddress" Type="varchar" MaxLength="255" />
+          <Property Name="SupplierSuburb" Type="varchar" MaxLength="255" />
+          <Property Name="SupplierPostcode" Type="varchar" MaxLength="20" />
+          <Property Name="SupplierState" Type="varchar" MaxLength="255" />
+          <Property Name="SupplierCountry" Type="varchar" MaxLength="255" />
+          <Property Name="SupplierABNExempt" Type="bool" />
+          <Property Name="ParentCNUUID" Type="varchar" MaxLength="36" />
+          <Property Name="MULUUID" Type="varchar" MaxLength="36" />
+          <Property Name="AmendmentReason" Type="text" />
+          <Property Name="ContactName" Type="varchar" MaxLength="255" />
+          <Property Name="ContactPhone" Type="varchar" MaxLength="255" />
+          <Property Name="Division" Type="varchar" MaxLength="255" />
+          <Property Name="Branch" Type="varchar" MaxLength="255" />
+          <Property Name="OfficePostcode" Type="varchar" MaxLength="20" />
+          <Property Name="AgencyRefId" Type="varchar" MaxLength="255" />
+          <Property Name="SONUUID" Type="varchar" MaxLength="36" />
+          <Property Name="ConfidentialityOutputsFlag" Type="tinyint" />
+          <Property Name="ProcurementCode" Type="char" MaxLength="3" />
+        </EntityType>
+        <EntityType Name="contract">
+          <Key>
+            <PropertyRef Name="ContractUUID" />
+          </Key>
+          <Property Name="ContractUUID" Type="varchar" MaxLength="36" Nullable="false" />
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Type" Type="char" MaxLength="3" Nullable="false" />
+          <Property Name="AgencyUUID" Type="varchar" MaxLength="36" Nullable="false" />
+          <Property Name="UserUUID" Type="varchar" MaxLength="36" Nullable="false" />
+          <Property Name="UNSPSCCode" Type="varchar" MaxLength="8" />
+          <Property Name="Published" Type="datetime" Precision="0" />
+          <Property Name="StartDate" Type="date" />
+          <Property Name="EndDate" Type="date" />
+          <Property Name="Value" Type="double" />
+          <Property Name="Description" Type="text" />
+          <Property Name="Status" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CancellationReason" Type="text" />
+          <Property Name="ConsultancyFlag" Type="bool" />
+          <Property Name="ContractJustificationUUID" Type="varchar" MaxLength="36" />
+          <Property Name="UploadUUID" Type="varchar" MaxLength="36" />
+          <Property Name="TenderNumber" Type="varchar" MaxLength="255" />
+          <Property Name="CancellationDate" Type="date" />
+          <Property Name="CancellationUserUUID" Type="varchar" MaxLength="36" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="cn" EntityType="Self.cn" Schema="etr" store:Type="Tables" />
+          <EntitySet Name="contract" EntityType="Self.contract" Schema="etr" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="cn">
+          <Key>
+            <PropertyRef Name="CNUUID" />
+          </Key>
+          <Property Name="CNUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ContractUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ConfidentialityContractFlag" Type="SByte" />
+          <Property Name="SupplierUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierSuburb" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierPostcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierState" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierCountry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SupplierABNExempt" Type="Boolean" />
+          <Property Name="ParentCNUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="MULUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="AmendmentReason" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="ContactName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPhone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Division" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="OfficePostcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="AgencyRefId" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SONUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="ConfidentialityOutputsFlag" Type="SByte" />
+          <Property Name="ProcurementCode" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="contract">
+          <Key>
+            <PropertyRef Name="ContractUUID" />
+          </Key>
+          <Property Name="ContractUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AgencyUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UNSPSCCode" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="Published" Type="DateTime" />
+          <Property Name="StartDate" Type="DateTime" />
+          <Property Name="EndDate" Type="DateTime" />
+          <Property Name="Value" Type="Double" />
+          <Property Name="Description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CancellationReason" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="ConsultancyFlag" Type="Boolean" />
+          <Property Name="ContractJustificationUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="UploadUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+          <Property Name="TenderNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CancellationDate" Type="DateTime" />
+          <Property Name="CancellationUserUUID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="etrEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cns" EntityType="Self.cn" />
+          <EntitySet Name="contracts" EntityType="Self.contract" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="etrEntities">
+          <EntitySetMapping Name="cns">
+            <EntityTypeMapping TypeName="Model.cn">
+              <MappingFragment StoreEntitySet="cn">
+                <ScalarProperty Name="CNUUID" ColumnName="CNUUID" />
+                <ScalarProperty Name="ContractUUID" ColumnName="ContractUUID" />
+                <ScalarProperty Name="ConfidentialityContractFlag" ColumnName="ConfidentialityContractFlag" />
+                <ScalarProperty Name="SupplierUUID" ColumnName="SupplierUUID" />
+                <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+                <ScalarProperty Name="SupplierAddress" ColumnName="SupplierAddress" />
+                <ScalarProperty Name="SupplierSuburb" ColumnName="SupplierSuburb" />
+                <ScalarProperty Name="SupplierPostcode" ColumnName="SupplierPostcode" />
+                <ScalarProperty Name="SupplierState" ColumnName="SupplierState" />
+                <ScalarProperty Name="SupplierCountry" ColumnName="SupplierCountry" />
+                <ScalarProperty Name="SupplierABNExempt" ColumnName="SupplierABNExempt" />
+                <ScalarProperty Name="ParentCNUUID" ColumnName="ParentCNUUID" />
+                <ScalarProperty Name="MULUUID" ColumnName="MULUUID" />
+                <ScalarProperty Name="AmendmentReason" ColumnName="AmendmentReason" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="OfficePostcode" ColumnName="OfficePostcode" />
+                <ScalarProperty Name="AgencyRefId" ColumnName="AgencyRefId" />
+                <ScalarProperty Name="SONUUID" ColumnName="SONUUID" />
+                <ScalarProperty Name="ConfidentialityOutputsFlag" ColumnName="ConfidentialityOutputsFlag" />
+                <ScalarProperty Name="ProcurementCode" ColumnName="ProcurementCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="contracts">
+            <EntityTypeMapping TypeName="Model.contract">
+              <MappingFragment StoreEntitySet="contract">
+                <ScalarProperty Name="ContractUUID" ColumnName="ContractUUID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="AgencyUUID" ColumnName="AgencyUUID" />
+                <ScalarProperty Name="UserUUID" ColumnName="UserUUID" />
+                <ScalarProperty Name="UNSPSCCode" ColumnName="UNSPSCCode" />
+                <ScalarProperty Name="Published" ColumnName="Published" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CancellationReason" ColumnName="CancellationReason" />
+                <ScalarProperty Name="ConsultancyFlag" ColumnName="ConsultancyFlag" />
+                <ScalarProperty Name="ContractJustificationUUID" ColumnName="ContractJustificationUUID" />
+                <ScalarProperty Name="UploadUUID" ColumnName="UploadUUID" />
+                <ScalarProperty Name="TenderNumber" ColumnName="TenderNumber" />
+                <ScalarProperty Name="CancellationDate" ColumnName="CancellationDate" />
+                <ScalarProperty Name="CancellationUserUUID" ColumnName="CancellationUserUUID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

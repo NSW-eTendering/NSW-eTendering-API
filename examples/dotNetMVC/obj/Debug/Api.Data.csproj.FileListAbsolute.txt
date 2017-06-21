@@ -1,0 +1,7 @@
+D:\VSProjects\etr-api\Api.Data\bin\Debug\Api.Data.dll.config
+D:\VSProjects\etr-api\Api.Data\bin\Debug\Api.Data.dll
+D:\VSProjects\etr-api\Api.Data\bin\Debug\Api.Data.pdb
+D:\VSProjects\etr-api\Api.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\etr-api\Api.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\etr-api\Api.Data\obj\Debug\Api.Data.dll
+D:\VSProjects\etr-api\Api.Data\obj\Debug\Api.Data.pdb
