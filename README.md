@@ -18,7 +18,7 @@ The API is available through a number of URLs:
 - [Individual tender view (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=public.api.tender.view&RFTUUID=AB473223-0E1B-F452-69D9899F409F6FAE)
 - [Individual contract view (Contract Notice and Standing Offer Notice)](https://tenders.nsw.gov.au/?event=public.api.contract.view&CNUUID=D3D64056-DDCE-933B-DA1E77914452D4B1)
 
-More information on parameters and response fields will become available in the Wiki section of this repository.
+More information on parameters and response fields is available in the [Wiki](https://github.com/NSW-eTendering/NSW-eTendering-API/wiki) section of this repository.
 
  
 ## Schema
