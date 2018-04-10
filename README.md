@@ -13,7 +13,7 @@ The API is available through a number of URLs:
 - [Planned Procurement search](https://tenders.nsw.gov.au/?event=public.api.planning.search)
 - [Tender search (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=public.api.tender.search)
 - [Contract search (Contract Notice)](https://tenders.nsw.gov.au/?event=public.api.contract.search&type=cnEvent)
-- [Contract search (Standing Offer Notice)](https://tenders.nsw.gov.au/?event=public.api.contract.search&type=sonEvent)
+- [Contract search (Standing Offer Notice)](https://tenders.nsw.gov.au/?event=public.api.standingoffer.search&type=sonEvent)
 - [Individual Planned Procurement view](https://tenders.nsw.gov.au/?event=public.api.planning.view&PlannedProcurementUUID=6C713846-F502-9A2E-DAEAF329346BA226)
 - [Individual tender view (Request For Tender and Scheme)](https://tenders.nsw.gov.au/?event=public.api.tender.view&RFTUUID=AB473223-0E1B-F452-69D9899F409F6FAE)
 - [Individual contract view (Contract Notice and Standing Offer Notice)](https://tenders.nsw.gov.au/?event=public.api.contract.view&CNUUID=D3D64056-DDCE-933B-DA1E77914452D4B1)
