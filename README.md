@@ -1,5 +1,5 @@
 # NSW-eTendering-API
-A developer portal for the NSW eTendering search API.  This repository will provide users of the data with documentation, code examples, bug notifications and feature requests.
+A developer portal for the NSW eTendering search API.  This repository will provide users of the data with documentation, code examples, bug notifications and feature requests.  The [Wiki](https://github.com/NSW-eTendering/NSW-eTendering-API/wiki) provides technical details about search parameters and expected results.
 
 ## About
 NSW eTendering is an online tendering system used by NSW Government agencies to make available information about tendering opportunities.
