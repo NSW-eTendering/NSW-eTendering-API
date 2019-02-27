@@ -5,3 +5,14 @@ D:\VSProjects\etr-api\Api.Data\bin\Debug\EntityFramework.dll
 D:\VSProjects\etr-api\Api.Data\bin\Debug\EntityFramework.xml
 D:\VSProjects\etr-api\Api.Data\obj\Debug\Api.Data.dll
 D:\VSProjects\etr-api\Api.Data\obj\Debug\Api.Data.pdb
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\Api.Data.dll.config
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\Api.Data.dll
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\Api.Data.pdb
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\EntityFramework.dll
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\EntityFramework.xml
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\obj\Debug\Api.Data.csprojResolveAssemblyReference.cache
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\obj\Debug\Api.Data.csproj.CoreCompileInputs.cache
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\obj\Debug\Api.Data.dll
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\obj\Debug\Api.Data.pdb
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\NSW-eTendering-API\examples\dotNET_MVC\Api.Data\bin\Debug\EntityFramework.SqlServer.xml

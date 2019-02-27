@@ -15,16 +15,11 @@ namespace Api.Web.Controllers
 
         public async Task<ActionResult> ParsePlannedProcurements()
         {
-            //var cn = new cn() { CNUUID = "F7EABE30-D193-79E8-4EA6EC13105DE46C" };
-            //db.SaveChanges();
             var requestHelper = new RequestHelper();
-            //var baseUrl = "http://ec2-54-252-210-13.ap-southeast-2.compute.amazonaws.com/";
-            var baseUrl = "http://tenders.nsw.gov.au/";
-            var result = "<table><tr><th>Planned Procurement</th><th>Tenders</th><th>Contracts</th></tr>";
+            var baseUrl = "https://tenders.nsw.gov.au/";
+            var result = "<table class=\"table table-bordered\" ><tr><th>Planned Procurement</th><th>Tenders</th><th>Contracts</th></tr>";
 
-            // valid search result              ?event=public.api.planning.search&ResultsPerPage=99
-            // fail with "errors"               ?event=public.api.tender.view&RFTUUID=DCBEFDDE-CFF9-430D-4DFAE339EA77430
-            eTenderAPIResponse jsonResponse = await requestHelper.GetAndDecode<eTenderAPIResponse>(baseUrl + "?event=public.api.planning.search&ResultsPerPage=99");
+            eTenderAPIResponse jsonResponse = await requestHelper.GetAndDecode<eTenderAPIResponse>(baseUrl + "?event=public.api.planning.search&ResultsPerPage=5");
 
             foreach (Release release in jsonResponse.releases)
             {
@@ -36,7 +31,7 @@ namespace Api.Web.Controllers
                 var rftArray = tender.relatedRFT;
                 var rftCount = rftArray?.Count ?? 0;
                 var ppTender = plannedProcurement.releases[0].tender;
-                result += "<tr><td rowspan='" + rftCount + "'><a href=\"" + baseUrl + "?event=public.api.planning.view&plannedProcurementUUID=" + ppUuid + "\">";
+                result += "<tr><td><a href=\"" + baseUrl + "?event=public.api.planning.view&plannedProcurementUUID=" + ppUuid + "\">";
                 result += ppTender.id + "</a><br/>Estimated Date of Approach to Market: " + ppTender.estimatedDateToMarket + "</td>";
 
                 if (rftCount > 0)
@@ -80,7 +75,6 @@ namespace Api.Web.Controllers
                             result += "</tr><tr>";
                         }
                         rftIndex++;
-
                     }
                 }
                 else

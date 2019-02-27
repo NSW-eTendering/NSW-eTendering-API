@@ -42,7 +42,7 @@ namespace Api.Web.Models
         public int numberOfTenderers { get; set; }
         public List<Tenderer> tenderers { get; set; }
         public List<Document> documents { get; set; }
-        public Amendments amendments { get; set; }
+        public List<Amendments> amendments { get; set; }
         public string estimatedDateToMarket { get; set; }
     }
 }

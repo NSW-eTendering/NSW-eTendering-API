@@ -1,11 +1,16 @@
 ﻿using System;
+using System.Net;
 using System.Net.Http;
+using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Api.Web.Models;
+using System.Collections;
 
 namespace Api.Web.Utilities
 {
+
     public class RequestHelper
     {
         public static HttpClient httpClient = new HttpClient();
@@ -13,6 +18,10 @@ namespace Api.Web.Utilities
         public async Task<T> GetAndDecode<T>(string url) where T : eTenderAPIResponse
         {
             var HttpResult = "";
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                                                   | SecurityProtocolType.Tls11
+                                                   | SecurityProtocolType.Tls12
+                                                   | SecurityProtocolType.Ssl3;
 
             HttpResponseMessage response = await httpClient.GetAsync(url);
 
@@ -34,6 +43,7 @@ namespace Api.Web.Utilities
             }
 
             T apiResponse = JsonConvert.DeserializeObject<T>(HttpResult);
+            
 
             // not neccessary - already caught by EnsureSuccessStatusCode above
             if (HttpResult.IndexOf("\"errors\":") > 0)
